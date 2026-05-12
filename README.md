@@ -11,7 +11,7 @@ Advised by Prof. Andy Parker
 
 This capstone studies a fundamental question in unsupervised learning: **when is a nonlinear method (autoencoder) worth the extra cost over a classical linear method (PCA)?** The answer depends on the structure of the data being compressed.
 
-The project pairs a mathematical derivation of both methods — including a proof of the known equivalence between PCA and a linear autoencoder — with a computational comparison on two deliberately contrasting datasets:
+The project pairs a mathematical derivation of both methods including a proof of the known equivalence between PCA and a linear autoencoder  with a computational comparison on two deliberately contrasting datasets:
 
 - **MNIST** handwritten digits, where the data lies on a curved nonlinear manifold and the autoencoder's flexibility pays off.
 - **Indian Pines** hyperspectral imagery, where neighboring spectral bands are highly correlated and the underlying structure is approximately linear.
